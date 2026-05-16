@@ -8,7 +8,7 @@ A pixel-perfect reconstruction of the Lambda.ai website built with React, showca
 
 ## 📝 Project Overview
 
-This project is a front-end engineering assessment that demonstrates the ability to recreate complex, production-grade interfaces with precision. The clone faithfully reproduces the Lambda.ai website's design, animations, and user experience.
+This project is a front-end challenge that demonstrates the ability to recreate complex, production-grade interfaces with precision. The clone faithfully reproduces the Lambda.ai website's design, animations, and user experience.
 
 ## ✨ Features
 
