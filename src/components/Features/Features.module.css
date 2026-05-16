@@ -1,0 +1,32 @@
+.accordionNumber::after {
+  color: var(--color-ultraviolet);
+  content: "/";
+}
+
+.accordionBody {
+  overflow: hidden;
+  max-height: 0;
+  padding-top: 0;
+  visibility: hidden;
+  transition:
+    max-height 0.4s cubic-bezier(.6, 0, .4, 1),
+    padding-top 0.4s cubic-bezier(.6, 0, .4, 1),
+    visibility 0s linear 0.4s;
+}
+
+.accordionBodyOpen {
+  max-height: 300px;
+  padding-top: 20px;
+  visibility: visible;
+  transition:
+    max-height 0.4s cubic-bezier(.6, 0, .4, 1),
+    padding-top 0.4s cubic-bezier(.6, 0, .4, 1),
+    visibility 0s linear 0s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordionBody,
+  .accordionBodyOpen {
+    transition: none;
+  }
+}

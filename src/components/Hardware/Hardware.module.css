@@ -1,0 +1,24 @@
+.hwCard {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  transition: flex-basis 0.4s cubic-bezier(0.6, 0, 0.4, 1);
+}
+
+.hwTextPanel {
+  transition: height 0.4s cubic-bezier(0.6, 0, 0.4, 1) 0.3s;
+}
+
+.hwDescription {
+  transition:
+    opacity 0.4s cubic-bezier(0.6, 0, 0.4, 1) 0.5s,
+    transform 0.4s cubic-bezier(0.6, 0, 0.4, 1) 0.5s;
+}
+
+.hwIndicator {
+  transition: background-color 0.4s cubic-bezier(0.6, 0, 0.4, 1);
+}
+
+.hwCard:hover .hwIndicator {
+  background-color: var(--color-purple);
+}
